@@ -1,0 +1,36 @@
+
+.accordion-item {
+    margin-bottom: 10px; 
+  }
+  
+  .accordion-button {
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    text-align: left;
+  }
+  
+  .accordion-button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
+  }
+  
+  /* Estilos para el cuerpo del acordeón */
+  .accordion-body {
+    background-color: #f8f9fa; /* Color de fondo del cuerpo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde alrededor del cuerpo */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  /* Cambia el color del texto del título cuando está colapsado */
+  .accordion-button.collapsed {
+    color: #007BFF;
+  }
+  
+  /* Cambia el color del ícono de flecha cuando está colapsado */
+  .accordion-button.collapsed::after {
+    content: '\002B'; /* Cambia el ícono de más a menos (+ a -) */
+  }
