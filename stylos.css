@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #98c5e9;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+article {
+    width: 300px;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #98c5e9;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
